@@ -36,7 +36,7 @@ sql_key = args['sql_folder_name']+"/"+args['sql_location']
 partition_prefix = "/src_sys_loc_"
 mapping_file_location = ""
 secret_name = args['secret_name']
-
+print(secret_name)
 #s3_client
 s3_client = boto3.client('s3')
 
